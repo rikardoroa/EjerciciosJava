@@ -1,28 +1,36 @@
-import java.util.*;
-import java.lang.*;
+package escribetxtFinput;
+
+
 import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
-class Escribetxt
-{
+public class Escribetxt {
 	
-	void EscribirmiTxT(){
+	
+void EscribirmiTxT(){
 		
 		try{
 		FileOutputStream Escribe = new FileOutputStream("D:\\fichero.txt");
-		String Cadena="RicardoRoa";
+		String Cadena="Ricardo Roa";
 		
 		byte GuardaCadena[]=Cadena.getBytes();
+		
 		Escribe.write(GuardaCadena, 0, GuardaCadena.length);
+		
 		Escribe.close();
+		
+	    System.out.println("Proceso Exitoso al escribir el archivo");
+	    
 		}catch(IOException e){
 		 System.out.println("Ocurrio un error al escribir el archivo");	
 		}
 	}
 	
-	public static void main (String[] args) throws java.lang.Exception
-	{
+	
+
+	public static void main(String[] args) {
 		Escribetxt escribirmitxt = new Escribetxt();
 		escribirmitxt.EscribirmiTxT();
+
 	}
+
 }
