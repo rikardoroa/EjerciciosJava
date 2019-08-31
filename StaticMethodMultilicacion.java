@@ -17,9 +17,8 @@ class OperacionEnteros
    }
 	
 	
-	
-	public static void main (String[] args) throws java.lang.Exception
-	{
+ public static void main (String[] args) throws java.lang.Exception{
+	 
 	     OperacionEnteros calcula = new OperacionEnteros();
 	     System.out.println("El resultado de la multiplicacion es:" +OperacionEnteros.multiplica(a, b, multiplicacion));
 	}
