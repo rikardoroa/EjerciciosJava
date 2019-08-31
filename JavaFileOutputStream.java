@@ -18,7 +18,7 @@ void EscribirmiTxT(){
 		
 		Escribe.close();
 		
-	    System.out.println("Proceso Exitoso al escribir el archivo");
+	        System.out.println("Proceso Exitoso al escribir el archivo");
 	    
 		}catch(IOException e){
 		 System.out.println("Ocurrio un error al escribir el archivo");	
