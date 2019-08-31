@@ -42,7 +42,7 @@ class BusquedaVector
 	
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Ideone encuentra = new Ideone();
+		BusquedaVector encuentra = new BusquedaVector();
 		encuentra.encuentraentero();
 	}
 }
